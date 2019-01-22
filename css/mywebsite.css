@@ -260,3 +260,10 @@ p.copyright {
     margin: 0;
   }
 }
+
+@media(max-width: 767px) {
+    .intro-img {
+        width: 40%;
+        margin-left: 5%
+    }
+}
