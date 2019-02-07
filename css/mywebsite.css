@@ -267,3 +267,8 @@ p.copyright {
         margin-left: 5%
     }
 }
+
+.meme {
+    height: auto;
+    width: 25%;
+}
