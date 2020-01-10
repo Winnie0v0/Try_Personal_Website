@@ -101,12 +101,30 @@
                 <i class="fa fa-paw"></i> Let's play! Time:<span>0</span>S
               </h2>
               <hr class="divider" />
+              <ul
+          class="animated fadeIn list-inline intro-social-buttons"
+          style="pointer-events: none"
+        >
+          <li class="list-inline-item">
+            <a
+              onclick="start()"
+              class="btn btn-secondary btn-lg"
+              style="pointer-events: all"
+            >
+            <h2 id="start">START!</h2>
+              <span class="network-name"><a target="_blank"></a> </span>
+            </a>
+          </li>
+        </ul>
             </div>
           </div>
         </div>
+        
+        
         <!-- /.container -->
-    <canvas id="canvas_dom" width="400" height="300"></canvas>
-</section>
+        <canvas id="canvas_dom" width="400" height="300"></canvas>
+    </section>
+    
     <script>
         /*
             ddmm
@@ -309,6 +327,8 @@
             g.game_over = true;
             x=document.getElementById("game_time")
             x.innerHTML="游戏结束，你坚持了" + g.game_time + "S" + "，继续努力!"
+            y=document.getElementById("start")
+            y.innerHTML="ERFRESH"
             //setTimeout(function(){//如果不延迟可能会导致上一次绘画未完成就被阻塞了
                 //if(confirm("游戏结束，你坚持了" + g.game_time + "S" + "，继续努力!\n重新开始游戏请点'是'")){
             //window.location.reload();
@@ -371,7 +391,17 @@
         }
     </script>
 
-<input type="button" value="开始" onclick="start()" />
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.js"></script>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/typed.js"></script>
+<script src="js/typeme.js"></script>
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>
