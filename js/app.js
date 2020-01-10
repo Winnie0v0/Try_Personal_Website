@@ -10,37 +10,36 @@ particlesJS('particles-js',
 {
   "particles": {
     "number": {
-      "value": 40,
+      "value": 50,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 1000
       }
     },
     "color": {
-      "value": "#4698CB"
+      "value": "#000"
     },
     "shape": {
-      "type": "polygon",
+      "type": "image",
       "stroke": {
-        "width": 1,
+        "width": 5,
         "color": "#fff"
       },
-      "polygon": {
-        "nb_sides": 6
-      },
       "image": {
-        "src": "img/github.svg",
+        "src": "paw.png",
+        "filter":"alpha=40",
         "width": 100,
         "height": 100
       }
     },
+
     "opacity": {
-      "value": 0.2,
+      "value": 90,
       "random": true,
       "anim": {
         "enable": true,
         "speed": 0.2,
-        "opacity_min": 0,
+        "opacity_min": 0.5,
         "sync": false
       }
     },
@@ -50,14 +49,14 @@ particlesJS('particles-js',
       "anim": {
         "enable": false,
         "speed": 4,
-        "size_min": 2,
+        "size_min": 5,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#ffffff",
+      "color": "#000",
       "opacity": 0.5,
       "width": 1
     },
@@ -98,13 +97,13 @@ particlesJS('particles-js',
       },
       "bubble": {
         "distance": 200,
-        "size": 5,
+        "size": 100,
         "duration": 2,
         "opacity": 1,
         "speed": 3
       },
       "repulse": {
-        "distance": 400,
+        "distance": 200,
         "duration": 0.4
       },
       "push": {
