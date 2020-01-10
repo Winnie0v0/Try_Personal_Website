@@ -2,18 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>按键盘的上下左右躲开这些黑色障碍物</title>
+    <title>喵了个咪</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+
+    <!-- Custom fonts for this template -->
+    <link
+      href="vendor/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="css/mywebsite.css" rel="stylesheet" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="img/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="img/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="img/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="img/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="img/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="img/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <!--<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img.icon/favicon-16x16.png">-->
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="img/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
 </head>
 <style>
     #canvas_dom{margin: 0 auto;display: block;background: #fff;}
     .title{text-align: center;}
-    #game_time{text-align: center;}
 </style>
 <body>
-    <h1 class="title">按键盘的上下左右躲开这些黑色障碍物</h1>
-    <h2 id="game_time">你坚持的时间：<span>0</span>S</h2>
-    <canvas id="canvas_dom"></canvas>
-    <script >
+    <section class="content-section-b" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg ml-auto">
+              <h2 class="section-heading" id="game_time">
+                <i class="fa fa-paw"></i> Let's play! Time:<span>0</span>S
+              </h2>
+              <hr class="divider" />
+            </div>
+          </div>
+        </div>
+        <!-- /.container -->
+    <canvas id="canvas_dom" width="400" height="300"></canvas>
+</section>
+    <script>
         /*
             ddmm
             2018/07/13
@@ -37,7 +131,7 @@
                refreshNumForSec: 60,//每秒画面刷新次数
                game_time: 0, //游戏坚持的时间
             canvasWidth: 1100,//画布宽度
-            canvasHeight: 400,//画布高度
+            canvasHeight: 300,//画布高度
             faceDataUrl: "cat.png",//头像地址
             img: null,//头像图片引用
             faceWidth: 73.7,
