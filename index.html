@@ -14,6 +14,8 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="hhh.css" rel="stylesheet" type="text/css" />
+
 
     <!-- Custom fonts for this template -->
     <link
@@ -97,6 +99,27 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
 
+  <script>
+  var g = {
+    E:true
+  }
+  function Chinese(){
+      E=false;
+      x=document.getElementById("hi", "I")
+      x.innerHTML="Hi, I'm &#10; 宗筱雯", "我想"
+      x1=document.getElementById("I")
+      x1.innerHTML="我想"
+  }
+    
+  function English(){
+      E=true;
+      x=document.getElementById("hi")
+      x.innerHTML="Hi, I'm &#10; Winnie."
+      x1=document.getElementById("I")
+      x1.innerHTML="I am likely"
+  }
+  </script>
+
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -136,8 +159,15 @@
             <li class="nav-item">
               <a
                 class="nav-link js--about-me js--wp-1"
-                href="/garciaflores_resume2020.pdf"
-                >Resume</a
+                onclick="English()"
+                >English</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js--about-me js--wp-1"
+                onclick="Chinese()"
+                >Chinese</a
               >
             </li>
             <li class="nav-item">
@@ -152,34 +182,32 @@
 
     <!-- Header -->
     <header class="intro-header">
-      <div class="animated fadeIn" id="particles-js"></div>
+      <!--<div class="animated fadeIn" id="particles-js"></div>-->
       <div class="container">
         <div class="intro-message">
-          <br />
           <img
             class="animated fadeIn intro-img img-fluid"
             src="img/me.jpeg"
-            align="left"
+            align="right"
             alt=""
             height="40%"
             width="40%"
           />
-          <br />
-          <h1 class="animated fadeIn" align="right">Hi, I'm Winnie.</h1>
-          <br />
-          <div class="animated fadeIn container">
-            <div class="col-lg-8 ml-auto">
-              <hr class="intro-divider" align="left" />
-            </div>
-            <div class="col-lg-8 ml-auto" align="left">
-              <h2>Smith College : : Computer Science</h2>
-              <h4>I'm likely <span class="typed"></span></h4>
-            </div>
-            <div class="col-lg-8 ml-auto">
-              <hr class="intro-divider" />
+          <!--<img
+            class="animated fadeIn intro-img img-fluid"
+            src="paw2.png"
+            align="left"
+            alt=""
+            height="10%"
+            width="10%"
+          />-->
+          <h1 class="animated fadeIn" align="left" style="white-space: pre-line;" id="hi">Hi, I'm &#10; 宗筱雯.</h1>
+          <br>
+          <h2 class="animated fadeIn" align="left" id="I">我想</h2>
+          <h2 class="animated fadeIn" align="left"><span class="typed"></span></h2>
             </div>
           </div>
-
+          <!--
           <ul
             class="animated fadeIn list-inline intro-social-buttons"
             style="pointer-events: none"
@@ -234,7 +262,7 @@
                 <span class="network-name"><a target="_blank"></a> </span>
               </a>
             </li>
-          </ul>
+          </ul>-->
         </div>
       </div>
     </header>
@@ -652,9 +680,9 @@
       <!-- /.container -->
     </section>
 
-    <iframe src="hhh.html" frameborder="0" width="1300" scrolling="No" height="600" leftmargin="0" topmargin="0"></iframe>
+    <iframe src="hhh.html" frameborder="0" width="1300" scrolling="No" height="540" leftmargin="0" topmargin="0"></iframe>
 
-    <section class="content-section-a" id="music">
+    <!--<section class="content-section-a" id="music">
       <div class="container">
         <div class="row">
           <div class="col-lg ml-auto">
@@ -671,8 +699,8 @@
           </div>
         </div>
       </div>
-      <!-- /.container -->
-    </section>
+       /.container 
+    </section>-->
 
     <!-- /.content-section-d -->
 
@@ -748,15 +776,22 @@
                   </span>
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-secondary btn-lg">
+                  <span class="network-name">Home </span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
+        <br>
+          Copyright &copy; Xiaowen Zong 2019. All Rights Reserved
       </div>
       <!-- /.container -->
     </aside>
     <!-- /.banner -->
 
-    <!-- Footer -->
+    <!-- Footer 
     <footer>
       <div class="container">
         <li class="list-inline-item">
@@ -766,10 +801,10 @@
         </li>
 
         <p class="copyright text-muted small">
-          Copyright &copy; Omar Garcia Flores 2019. All Rights Reserved
+          Copyright &copy; Xiaowen Zong 2019. All Rights Reserved
         </p>
       </div>
-    </footer>
+    </footer>-->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.js"></script>

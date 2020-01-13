@@ -1,0 +1,14 @@
+.hhh{
+    width: 300px;
+    height: 300px;
+    border: #000 solid 0px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.hhh img{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.hhh img:hover{
+    transform: scale(1.4);
+}
