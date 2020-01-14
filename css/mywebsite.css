@@ -265,7 +265,7 @@ p.copyright {
 @media(max-width: 767px) {
     .intro-img {
         width: 40%;
-        margin-left: 5%
+        margin-right: 10%
     }
 }
 
