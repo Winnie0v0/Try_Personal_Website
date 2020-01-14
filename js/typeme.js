@@ -4,7 +4,7 @@ var
 
   function Chinese(){
       E=false;
-      x=document.getElementById("hi", "I")
+      x=document.getElementById("hi")
       x.innerHTML="Hi, I'm &#10; 宗筱雯", "我想"
       x1=document.getElementById("I")
 	  x1.innerHTML="我想"
@@ -18,7 +18,7 @@ var
 			}
 		else{
 			  typed.typed({
-				strings: ["我在编程。", "我在设计。",  "我在绘画。", "我走在去未知的路上。", "我在等那个人。"],
+				strings: ["我在编程。", "我在设计。",  "我在绘画。", "我在前往未知的路上。", "我在等心中的那个人。"],
 				typeSpeed: 140,
 				loop: true,
 			  });
@@ -42,7 +42,7 @@ var
 			}
 		else{
 			  typed.typed({
-				strings: ["我在编程。", "我在设计。",  "我在绘画。", "我走在去未知的路上。", "我在等那个人。"],
+				strings: ["我在编程。", "我在设计。",  "我在绘画。", "我在前往未知的路上。", "我在等心中的那个人。"],
 				typeSpeed: 140,
 				loop: true,
 			  });
@@ -60,7 +60,7 @@ var
 		}
 	else{
 		  typed.typed({
-			strings: ["我在编程。", "我在设计。",  "我在绘画。", "我走在去未知的路上。", "我在等那个人。"],
+			strings: ["我在编程。", "我在设计。",  "我在绘画。", "我在前往未知的路上。", "我在等心中的那个人。"],
 			typeSpeed: 140,
 			loop: true,
 		  });
