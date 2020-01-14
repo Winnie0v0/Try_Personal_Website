@@ -31,14 +31,14 @@ var
 	  $(() => {
 		if(E==true){
 			typed.typed({
-				strings: ["programming.", "designing.",  "sketching.", "on my way to somewhere.", "waiting for someone."],
+				strings: ["programming.", "designing.",  "sketching.", "on my way to somewhere."],
 				typeSpeed: 140,
 				loop: true,
 			  });
 			}
 		else{
 			  typed.typed({
-				strings: ["我在编程。", "我在设计。",  "我在绘画。", "我在前往未知的路上。", "我在等心中的那个人。"],
+				strings: ["我在编程。", "我在设计。",  "我在绘画。", "我在前往未知的路上。"],
 				typeSpeed: 140,
 				loop: true,
 			  });
@@ -75,14 +75,14 @@ var
 	  $(() => {
 		if(E==true){
 			typed.typed({
-				strings: ["programming.", "designing.",  "sketching.", "on my way to somewhere.", "waiting for someone."],
+				strings: ["programming.", "designing.",  "sketching.", "on my way to somewhere."],
 				typeSpeed: 140,
 				loop: true,
 			  });
 			}
 		else{
 			  typed.typed({
-				strings: ["我在编程。", "我在设计。",  "我在绘画。", "我在前往未知的路上。", "我在等心中的那个人。"],
+				strings: ["我在编程。", "我在设计。",  "我在绘画。", "我在前往未知的路上。"],
 				typeSpeed: 140,
 				loop: true,
 			  });
@@ -93,14 +93,14 @@ var
   $(() => {
 	if(E==true){
 		typed.typed({
-			strings: ["programming.", "designing.",  "sketching.", "on my way to somewhere.", "waiting for someone."],
+			strings: ["programming.", "designing.",  "sketching.", "on my way to somewhere."],
 			typeSpeed: 140,
 			loop: true,
 		  });
 		}
 	else{
 		  typed.typed({
-			strings: ["我在编程。", "我在设计。",  "我在绘画。", "我在前往未知的路上。", "我在等心中的那个人。"],
+			strings: ["我在编程。", "我在设计。",  "我在绘画。", "我在前往未知的路上。"],
 			typeSpeed: 140,
 			loop: true,
 		  });
