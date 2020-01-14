@@ -103,7 +103,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="#">Home<img class='img-fluid' src='paw3.png' alt='' width='22'/></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -122,38 +122,43 @@
                 >About Me</a
               >
             </li>
+              <li class="nav-item">
+                <a class="nav-link js--about-me js--wp-1" href="#academics"
+                  >Academics</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js--about-me js--wp-1" href="#experience"
+                  >Experience</a
+                >
+              </li>
             <li class="nav-item">
               <a class="nav-link js--about-me js--wp-1" href="#hackathons"
                 >Hackathons</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js--about-me js--wp-1" href="#academics"
-                >Academics</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js--about-me js--wp-1" href="#music">Music</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link js--about-me js--wp-1"
-                onclick="English()"
-                >English</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link js--about-me js--wp-1"
-                onclick="Chinese()"
-                >Chinese</a
-              >
-            </li>
+              <a class="nav-link js--about-me js--wp-1" href="#game">Game!</a>
             <li class="nav-item">
               <a class="nav-link js--about-me js--wp-2" href="#contact"
                 >Contact</a
               >
             </li>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link js--about-me js--wp-1"
+              onclick="English()"
+              >English</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link js--about-me js--wp-1"
+              onclick="Chinese()"
+              >Chinese</a
+            >
+          </li>
           </ul>
         </div>
       </div>
@@ -161,10 +166,11 @@
 
     <!-- Header -->
     <header class="intro-header">
-      <!--<div class="animated fadeIn" id="particles-js"></div>-->
+      <div class="animated fadeIn" id="particles-js"></div>
       <div class="container">
         <div class="intro-message">
           <img
+            style="margin: -17px 70px 0px 0px;"
             class="animated fadeIn intro-img img-fluid"
             src="Winnie.jpg"
             align="right"
@@ -172,17 +178,10 @@
             height="40%"
             width="30%"
           />
-          <!--<img
-            class="animated fadeIn intro-img img-fluid"
-            src="paw2.png"
-            align="left"
-            alt=""
-            height="10%"
-            width="10%"
-          />-->
+          
           <h1 class="animated fadeIn" align="left" style="white-space: pre-line;" id="hi">Hi, I'm  &#10; 宗筱雯</h1>
-          <br>
-          <h2 class="animated fadeIn" align="left" id="I">我想</h2>
+          <hr align=left width=40% color=#fff SIZE=3>
+          <h2 class="animated fadeIn" align="left" id="I">我想<img class='img-fluid' src='paw2.png' alt='' width='35'/></h2>
           <h2 class="animated fadeIn" align="left"><span class="typed"></span></h2>
             </div>
           </div>
@@ -252,7 +251,7 @@
         <div class="row">
           <div class="col-lg ml-auto">
             <h2 class="section-heading">
-              <i class="fa fa-paw"></i> Hiii!
+              <img class="img-fluid" src="paw3.png" alt="" width="30" /> Hiii!
             </h2>
             <hr class="divider" />
             <p class="lead" id="intro">
@@ -271,19 +270,19 @@
       <div class="container">
         <div class="row">
           <div class="col-lg ml-auto">
-            <h2 class="section-heading">
-              <i class="fas fa-fish"></i> This Winter
+            <h2 class="section-heading" id="winter_1">
+              <img class="img-fluid" src="cat.png" alt="" width="35"/> 这个寒假
             </h2>
             <hr class="divider" />
-            <p class="lead">
-              I'm interning at Ksyun.
+            <p class="lead" id="winter_2">
+              我在<a href="https://www.ksyun.com">金山云</a>实习。
             </p>
           </div>
           <div class="col-lg mr-auto">
             <img
               class="img-fluid"
-              width="40%"
-              src="img/rbc.png"
+              width="80%"
+              src="KSYUN.png"
               alt=""
               style="border-radius: 0 !important; padding: 5px; padding-left: 32px"
             />
@@ -297,33 +296,73 @@
       <div class="container">
         <div class="row">
           <div class="col-lg ml-auto">
-            <h2 class="section-heading">
-              <i class="fa fa-code fa-fw"></i> This Summer
+            <h2 class="section-heading" id="summer_1">
+              <img class="img-fluid" src="fish.png" alt="" width="35" /> 这个暑假
             </h2>
             <hr class="divider" />
-            <p class="lead">
-              I interned at Deloitte Digital as a Business Technology Analyst
-              and worked with the
-              <a href="https://emotion.plus">EmotionPlus </a> team.
+            <p class="lead" id="summer_2">
+              未完待续...
             </p>
           </div>
           <div class="col-lg mr-auto">
             <img
               class="img-fluid"
-              width="50%"
-              src="img/deloitte2.png"
+              width="%"
+              src="tobe.png"
               alt=""
               style="border-radius: 0 !important; padding: 5px; padding-left: 32px"
             />
-            <a href="https://emotion.plus">
-              <img
-                class="img-fluid"
-                src="img/emotion-plus-icon-animated-dark.svg"
-                style="margin-left: 6rem; text-align: center;"
-                width="20%"
-                alt=""
-              />
-            </a>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <!-- /.content-section-b -->
+
+    <section class="content-section-a" id="academics">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg ml-auto">
+            <h2 class="section-heading" id="aca_1">
+              <img class="img-fluid" src="paw4.png" alt="" width="30" /> 学术经历
+            </h2>
+            <hr class="divider" />
+            <h5 id="aca_2">CSC111课程：学习Python语言</h5>
+            <p class="lead" id="aca_3">这是我们期末制作的<a href=''>小游戏</a>!
+              <hr>
+              <h5 id="aca_4">SDS192课程: 学习R语言</h5>
+              <p class="lead" id="aca_5">点击这里看看我的<a href=''>期末成果展示</a>!
+          </div>
+          <div class="col-lg mr-auto ">
+            <br />
+            <img class="img-fluid" src="tobe.png" alt="" />
+            <br />
+            <img class="img-fluid" src="" alt="" width="30%" />
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <section class="content-section-b" id="experience">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg ml-auto">
+            <h2 class="section-heading">
+              <img class="img-fluid" src="cat2.png" alt="" width="30" /> Experience
+            </h2>
+            <hr />
+            <h5>E-board Member, Smith Chinese Student Accosiation</h5>
+            <p class="lead">Organize events.</p>
+            <hr />
+            <h5>Intern, Global Environment Institute (Beijing)</h5>
+            <p class="lead">Researched, edited, and illustrated informational booklet for distribution to fishermen.</p>
+            <hr />
+            <h5>Member, Girls Who Code</h5>
+            <p class="lead">Lead classes.</p>
+            <h5>Active Member, Smith in CS</h5>
+            <p class="lead">Attend Events</p>
           </div>
         </div>
       </div>
@@ -580,83 +619,7 @@
       <!-- /.container -->
     </section>
 
-    <!-- /.content-section-b -->
-
-    <section class="content-section-a" id="academics">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg ml-auto">
-            <h2 class="section-heading">
-              <i class="fa fa-book fa-fw"></i> Academics & Extra Curriculars
-            </h2>
-            <hr class="divider" />
-            <h5>Design Lead</h5>
-            <p class="lead">cuHacking 2020</p>
-            <hr />
-            <h5>Tenor</h5>
-            <p class="lead">
-              Toronto Mendelssohn Choir (get tickets
-              <a href="https://www.tmchoir.org/">here</a>)
-            </p>
-            <hr />
-            <h5>Graphic Designer & Marketing Officer</h5>
-            <p class="lead">Carleton University Choir</p>
-          </div>
-          <div class="col-lg mr-auto ">
-            <img class="img-fluid" src="img/logo-2_medium.png" alt="" />
-            <br />
-            <img class="img-fluid" src="img/cuc.png" alt="" width="30%" />
-            <img
-              class="img-fluid"
-              src="img/tmc.png"
-              alt=""
-              style="margin-left: 20px; "
-              width="50%"
-            />
-          </div>
-        </div>
-      </div>
-      <!-- /.container -->
-    </section>
-
-    <section class="content-section-b" id="experience">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg ml-auto">
-            <h2 class="section-heading">
-              <i class="fa fa-clock-o fa-fw"></i> Previous Chapters
-            </h2>
-            <hr />
-            <h5>Outstanding Teaching Assistant Nomination</h5>
-            <p class="lead">Carleton University</p>
-            <hr />
-            <h5>Teaching Assistant, Web Development I</h5>
-            <p class="lead">School of Computer Science</p>
-            <hr />
-            <h5>Officer of Communications</h5>
-            <p class="lead">Carleton Computer Science Society</p>
-            <hr />
-            <h5>Tenor</h5>
-            <p class="lead">Ottawa Regional Youth Choir</p>
-            <hr />
-            <h5>Teaching Assistant, Discrete Math I</h5>
-            <p class="lead">School of Computer Science</p>
-            <hr />
-            <h5>Front End Developer & Design Intern</h5>
-            <p class="lead">M&B Consultoria</p>
-            <hr />
-            <h5>Guitar Teacher</h5>
-            <p class="lead">Nepean School of Music</p>
-            <hr />
-            <h5>Tenor</h5>
-            <p class="lead">Carleton University Choir</p>
-          </div>
-        </div>
-      </div>
-      <!-- /.container -->
-    </section>
-
-    <iframe src="hhh.html" frameborder="0" width="1300" scrolling="No" height="540" leftmargin="0" topmargin="0"></iframe>
+    <iframe src="hhh.html" frameborder="0" width="1200" scrolling="No" height="540" leftmargin="0" topmargin="0" id="game"></iframe>
 
     <!--<section class="content-section-a" id="music">
       <div class="container">
@@ -679,6 +642,7 @@
     </section>-->
 
     <!-- /.content-section-d -->
+
 
     <aside class="banner" id="contact">
       <div class="container">

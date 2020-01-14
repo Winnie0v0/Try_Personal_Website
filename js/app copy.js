@@ -10,54 +10,53 @@ particlesJS('particles-js',
 {
   "particles": {
     "number": {
-      "value": 50,
+      "value": 20,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "random"
+      "value": "#000"
     },
     "shape": {
-      "type": ["circle", "triangle", "polygon","edege"],
+      "type": "image",
       "stroke": {
-        "width": 1,
-        "color": "random"
-      },
-      "polygon": {
-        "nb_sides": 6
+        "width": 5,
+        "color": "#fff"
       },
       "image": {
-        "src": "哀.jpg",
+        "src": "paw4.png",
+        "filter":"alpha=40",
         "width": 100,
         "height": 100
       }
     },
+
     "opacity": {
-      "value": 0.4,
+      "value": 90,
       "random": true,
       "anim": {
         "enable": true,
         "speed": 0.2,
-        "opacity_min": 0,
+        "opacity_min": 0.5,
         "sync": false
       }
     },
     "size": {
-      "value": 30,
+      "value": 40,
       "random": true,
       "anim": {
         "enable": false,
         "speed": 4,
-        "size_min": 2,
+        "size_min": 5,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 5,
-      "color": "#FFF",
+      "distance": 150,
+      "color": "#000",
       "opacity": 0.5,
       "width": 1
     },
@@ -98,13 +97,13 @@ particlesJS('particles-js',
       },
       "bubble": {
         "distance": 200,
-        "size": 60,
+        "size": 100,
         "duration": 2,
         "opacity": 1,
         "speed": 3
       },
       "repulse": {
-        "distance": 400,
+        "distance": 200,
         "duration": 0.4
       },
       "push": {
@@ -115,5 +114,7 @@ particlesJS('particles-js',
       }
     }
   },
-  "retina_detect": true,
-});
+  "retina_detect": true
+}
+
+);
