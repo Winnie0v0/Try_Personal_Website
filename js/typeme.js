@@ -3,23 +3,23 @@ var
 	E=false
 
   function Chinese(){
-
+	E=false
       x=document.getElementById("hi")
       x.innerHTML="Hi, I'm &#10; 宗筱雯"
       x1=document.getElementById("I")
-	  x1.innerHTML="我想 <img class='img-fluid' src='paw2.png' alt='' width='35'/>"
+	  x1.innerHTML="我想 <img class='img-fluid' src='paw10.png' alt='' width='35'/>"
 	  x2=document.getElementById("intro")
 	  x2.innerHTML="我目前是美国史密斯学院大一的学生，主修计算机专业。"
 	  x3=document.getElementById("winter_1")
-	  x3.innerHTML="<img class='img-fluid' src='cat.png' alt='' width='35'/> 这个寒假"
+	  x3.innerHTML="<img class='img-fluid' src='cat7.png' alt='' width='35'/> 这个寒假"
 	  x4=document.getElementById("winter_2")
 	  x4.innerHTML="我在<a href='https://www.ksyun.com'>金山云</a>实习。"
 	  x5=document.getElementById("summer_1")
-	  x5.innerHTML="<img class='img-fluid' src='fish.png' alt='' width='35'/> 这个暑假"
+	  x5.innerHTML="<img class='img-fluid' src='cat9.png' alt='' width='35'/> 这个暑假"
 	  x6=document.getElementById("summer_2")
 	  x6.innerHTML="未完待续..."
 	  x7=document.getElementById("aca_1")
-	  x7.innerHTML="<img class='img-fluid' src='paw3.png' alt='' width='30'/> 学术经历"
+	  x7.innerHTML="<img class='img-fluid' src='cat5.png' alt='' width='35'/> 学术经历"
 	  x8=document.getElementById("aca_2")
 	  x8.innerHTML="CSC111课程：学习Python语言"
 	  x9=document.getElementById("aca_3")
@@ -30,7 +30,7 @@ var
 	  x11.innerHTML="点击这里看看我的<a href=''>期末成果展示</a>!"
 
 	  x12=document.getElementById("exp_1")
-      x12.innerHTML="<img class='img-fluid' src='cat2.png' alt='' width='35' /> 经历与经验"
+      x12.innerHTML="<img class='img-fluid' src='cat7.png' alt='' width='35' /> 经历与经验"
       x13=document.getElementById("exp_2")
       x13.innerHTML="核心成员, 史密斯学院中国学生会"
       x14=document.getElementById("exp_3")
@@ -49,7 +49,7 @@ var
 	  x20.innerHTML="积极参与活动。"
 	  
 	  x21=document.getElementById("hac_1")
-      x21.innerHTML="<img class='img-fluid' src='fish2.png' alt='' width='35' /> 黑客马拉松"
+      x21.innerHTML="<img class='img-fluid' src='cat10.png' alt='' width='35' /> 黑客马拉松"
       x22=document.getElementById("hac_2")
       x22.innerHTML="积极参与教授讲座。"
       x23=document.getElementById("hac_3")
@@ -59,9 +59,23 @@ var
       x25=document.getElementById("hac_5")
       x25.innerHTML="Hack(H)er413 2020"
 
-      x26=document.getElementById("con")
-      x26.innerHTML="<img class='img-fluid' src='paw4.png' alt='' width='50' /> 让我们一起努力! <img class='img-fluid' src='cat2.png' alt='' width='65' />"
-
+      x32=document.getElementById("con")
+	  x32.innerHTML="<img class='img-fluid' src='paw10.png' alt='' width='50' /> 让我们一起努力! <img class='img-fluid' src='paw10.png' alt='' width='65' />"
+	  
+	  x26=document.getElementById("aboutme")
+	  x26.innerHTML="关于我"
+	  x26=document.getElementById("home")
+	  x26.innerHTML="主页"
+	  x27=document.getElementById("acade")
+	  x27.innerHTML="学术"
+	  x28=document.getElementById("exper")
+	  x28.innerHTML="经历"
+	  x29=document.getElementById("hack")
+	  x29.innerHTML="项目"
+	  x30=document.getElementById("gamee")
+	  x30.innerHTML="游戏!"
+	  x31=document.getElementById("contactt")
+	  x31.innerHTML="联系"
 	  
 	  $(() => {
 		typed.typed({
@@ -76,23 +90,23 @@ var
 	  
     
   function English(){
-
+	E=true
       x=document.getElementById("hi")
       x.innerHTML="Hi, I'm &#10; Winnie."
       x1=document.getElementById("I")
-	  x1.innerHTML="I am likely <img class='img-fluid' src='paw2.png' alt='' width='35'/>"
+	  x1.innerHTML="I am likely <img class='img-fluid' src='paw10.png' alt='' width='35'/>"
 	  x2=document.getElementById("intro")
 	  x2.innerHTML="I am currently in my first year of the Computer Science Master's Degree at Smith College in Northampton, MA."
 	  x3=document.getElementById("winter_1")
-	  x3.innerHTML="<img class='img-fluid' src='cat.png' alt='' width='35'/> This Winter"
+	  x3.innerHTML="<img class='img-fluid' src='cat7.png' alt='' width='35'/> This Winter"
 	  x4=document.getElementById("winter_2")
 	  x4.innerHTML="I'm interning at <a href='https://www.ksyun.com'>Ksyun</a>."
 	  x5=document.getElementById("summer_1")
-	  x5.innerHTML="<img class='img-fluid' src='fish.png' alt='' width='35'/> This summer"
+	  x5.innerHTML="<img class='img-fluid' src='cat9.png' alt='' width='35'/> This summer"
 	  x6=document.getElementById("summer_2")
 	  x6.innerHTML="To be continue..."
 	  x7=document.getElementById("aca_1")
-	  x7.innerHTML="<img class='img-fluid' src='paw3.png' alt='' width='30'/> Academics"
+	  x7.innerHTML="<img class='img-fluid' src='cat5.png' alt='' width='35'/> Academics"
 	  x8=document.getElementById("aca_2")
 	  x8.innerHTML="CSC111: Learning Python"
 	  x9=document.getElementById("aca_3")
@@ -103,7 +117,7 @@ var
 	  x11.innerHTML="Click here for the markdown of our <a href=''>final project</a>!"
 
 	  x12=document.getElementById("exp_1")
-      x12.innerHTML="<img class='img-fluid' src='cat2.png' alt='' width='35' /> Experience"
+      x12.innerHTML="<img class='img-fluid' src='cat7.png' alt='' width='35' /> Experience"
       x13=document.getElementById("exp_2")
       x13.innerHTML="E-board Member, Smith Chinese Student Accosiation"
       x14=document.getElementById("exp_3")
@@ -122,7 +136,7 @@ var
 	  x20.innerHTML="Attend Events"
 
 	  x21=document.getElementById("hac_1")
-      x21.innerHTML="<img class='img-fluid' src='fish2.png' alt='' width='35' /> Hackathon Projects"
+      x21.innerHTML="<img class='img-fluid' src='cat10.png' alt='' width='35' /> Hackathon Projects"
       x22=document.getElementById("hac_2")
       x22.innerHTML="Attend web build workshop."
       x23=document.getElementById("hac_3")
@@ -132,8 +146,25 @@ var
       x25=document.getElementById("hac_5")
       x25.innerHTML="Hack(H)er413 2020"
 
-      x26=document.getElementById("con")
-      x26.innerHTML="<img class='img-fluid' src='paw4.png' alt='' width='50' /> Let's work together. <img class='img-fluid' src='cat2.png' alt='' width='65' />"
+      x32=document.getElementById("con")
+	  x32.innerHTML="<img class='img-fluid' src='paw10.png' alt='' width='50' /> Let's work together. <img class='img-fluid' src='paw10.png' alt='' width='65' />"
+	  
+	  x26=document.getElementById("aboutme")
+	  x26.innerHTML="About Me"
+	  x26=document.getElementById("home")
+	  x26.innerHTML="Home"
+	  x27=document.getElementById("acade")
+	  x27.innerHTML="Academic"
+	  x28=document.getElementById("exper")
+	  x28.innerHTML="Experience"
+	  x29=document.getElementById("hack")
+	  x29.innerHTML="Hackathon"
+	  x30=document.getElementById("gamee")
+	  x30.innerHTML="Game!"
+	  x31=document.getElementById("contactt")
+	  x31.innerHTML="Contact"
+
+	  
 	  
 	  $(() => {
 		typed.typed({

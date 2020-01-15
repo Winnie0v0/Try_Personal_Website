@@ -98,7 +98,7 @@
           <div class="row">
             <div class="col-lg ml-auto">
               <h2 class="section-heading" id="game_time">
-                <img class="img-fluid" src="fish.png" alt="" width="35" /> Let's play! Time:<span>0</span>S
+                <img class="img-fluid" src="cat4.png" alt="" width="35" />&nbsp&nbsp<span>0</span> S
               </h2>
               <hr class="divider" />
               <ul
@@ -150,10 +150,10 @@
                game_time: 0, //游戏坚持的时间
             canvasWidth: 1100,//画布宽度
             canvasHeight: 300,//画布高度
-            faceDataUrl: "cat.png",//头像地址
+            faceDataUrl: "cat1.png",//头像地址
             img: null,//头像图片引用
-            faceWidth: 73.7,
-            faceHeight: 53.9,
+            faceWidth: 50,
+            faceHeight: 50,
             faceX: 0,//头像位置x坐标(其初始值会在首次加载被initFacePos方法计算得出，故设置是无效的)
             faceY: 0,//头像位置y坐标(其初始值会在首次加载被initFacePos方法计算得出，故设置是无效的)
             faceLastX: 0,//头像上一次位置x坐标，用于擦除(其初始值会在首次加载被initFacePos方法计算得出，故设置是无效的)
@@ -325,18 +325,10 @@
         function game_over(){
             clearAllInterval();
             g.game_over = true;
-            if(E==false){
-                x=document.getElementById("game_time")
-                x.innerHTML="游戏结束，你坚持了" + g.game_time + "秒" + "，继续努力!"
-                y=document.getElementById("start")
-                y.innerHTML="<img class='img-fluid' src='restart.png' alt='' width='25'/>"
-            }
-            else{
-                x=document.getElementById("game_time")
-                x.innerHTML="Game over! You survived " + g.game_time + " s" + "! Try again!"
-                y=document.getElementById("start")
-                y.innerHTML="<img class='img-fluid' src='restart.png' alt='' width='25'/>"
-            }
+                //x99=document.getElementById("game_time")
+                //x99.innerHTML="游戏结束，你坚持了" + g.game_time + "秒" + "，继续努力!"
+            y99=document.getElementById("start")
+            y99.innerHTML="<img class='img-fluid' src='restart.png' alt='' width='25'/>"
            
             //setTimeout(function(){//如果不延迟可能会导致上一次绘画未完成就被阻塞了
                 //if(confirm("游戏结束，你坚持了" + g.game_time + "S" + "，继续努力!\n重新开始游戏请点'是'")){
