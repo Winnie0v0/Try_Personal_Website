@@ -28,6 +28,7 @@ var
 	  x10.innerHTML="SDS192课程: 学习R语言"
 	  x11=document.getElementById("aca_5")
 	  x11.innerHTML="点击这里看看我的<a href=''>期末成果展示</a>!"
+	  
 	  $(() => {
 		if(E==true){
 			typed.typed({

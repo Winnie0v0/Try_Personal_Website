@@ -111,7 +111,7 @@
                 class="btn btn-secondary btn-lg"
                 style="pointer-events: all"
                 >
-                <h5 id="start">开始!</h5>
+                <h5 id="start"><img class='img-fluid' src='start.png' alt='' width='25'/></h5>
                 <span class="network-name"><a target="_blank"></a> </span>
                 </a>
           </li>
@@ -325,10 +325,19 @@
         function game_over(){
             clearAllInterval();
             g.game_over = true;
-            x=document.getElementById("game_time")
-            x.innerHTML="游戏结束，你坚持了" + g.game_time + "秒" + "，继续努力!"
-            y=document.getElementById("start")
-            y.innerHTML="再来一次"
+            if(E==false){
+                x=document.getElementById("game_time")
+                x.innerHTML="游戏结束，你坚持了" + g.game_time + "秒" + "，继续努力!"
+                y=document.getElementById("start")
+                y.innerHTML="<img class='img-fluid' src='restart.png' alt='' width='25'/>"
+            }
+            else{
+                x=document.getElementById("game_time")
+                x.innerHTML="Game over! You survived " + g.game_time + " s" + "! Try again!"
+                y=document.getElementById("start")
+                y.innerHTML="<img class='img-fluid' src='restart.png' alt='' width='25'/>"
+            }
+           
             //setTimeout(function(){//如果不延迟可能会导致上一次绘画未完成就被阻塞了
                 //if(confirm("游戏结束，你坚持了" + g.game_time + "S" + "，继续努力!\n重新开始游戏请点'是'")){
             //window.location.reload();
