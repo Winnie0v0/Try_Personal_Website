@@ -1,9 +1,10 @@
-var 
-typed = $(".typed");
-document.querySelector('#game').contentWindow.lang = 'cn'
+
+var  typed = $(".typed");
+// document.querySelector('#game').contentWindow.lang = 'cn'
 
 function Chinese(){
-	document.querySelector('#game').contentWindow.lang = 'cn'
+	window.lang = 'cn'
+	// document.querySelector('#game').contentWindow.lang = 'cn'
 	x=document.getElementById("hi")
 	x.innerHTML="Hi, I'm &#10; 宗筱雯"
 	x1=document.getElementById("I")
@@ -93,7 +94,8 @@ function Chinese(){
 	  
     
 function English(){
-	document.querySelector('#game').contentWindow.lang = 'en'
+	window.lang = 'en'
+	// document.querySelector('#game').contentWindow.lang = 'en'
     x=document.getElementById("hi")
     x.innerHTML="Hi, I'm &#10; Winnie."
     x1=document.getElementById("I")
