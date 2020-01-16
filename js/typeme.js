@@ -66,7 +66,7 @@ function Chinese(){
 	x26=document.getElementById("aboutme")
 	x26.innerHTML="关于我"
 	x26=document.getElementById("home")
-	x26.innerHTML="主页"
+	x26.innerHTML="主页 <img class='img-fluid' src='paw.png' alt='' width='22'/>"
 	x27=document.getElementById("acade")
 	x27.innerHTML="学术"
 	x28=document.getElementById("exper")
@@ -78,8 +78,8 @@ function Chinese(){
 	x31=document.getElementById("contactt")
 	x31.innerHTML="联系"
 	
-	x32=document.querySelector('#game').contentWindow.document.querySelector('#game_time')
-	x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35'/>&nbsp玩个小游戏! 按键盘上左右键控制小猫! 你坚持了<span>0</span>&nbsp秒!"
+	// x32=document.querySelector('#game').contentWindow.document.querySelector('#game_time')
+	// x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35'/>&nbsp玩个小游戏! 按键盘上左右键控制小猫! 你坚持了<span>0</span>&nbsp秒!"
 	
 	$(() => {
 		typed.typed({
@@ -157,7 +157,7 @@ function English(){
 	x26=document.getElementById("aboutme")
 	x26.innerHTML="About Me"
 	x26=document.getElementById("home")
-	x26.innerHTML="Home"
+	x26.innerHTML="Home <img class='img-fluid' src='paw.png' alt='' width='22'/>"
 	x27=document.getElementById("acade")
 	x27.innerHTML="Academic"
 	x28=document.getElementById("exper")
@@ -169,8 +169,8 @@ function English(){
 	x31=document.getElementById("contactt")
 	x31.innerHTML="Contact"
 
-	x32=document.querySelector('#game').contentWindow.document.querySelector('#game_time')
-	x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35' /> Let's Play! Press left and right key to control! You servived<span>0</span>&nbsps!"
+	// x32=document.querySelector('#game').contentWindow.document.querySelector('#game_time')
+	// x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35' /> Let's Play! Press left and right key to control! You servived<span>0</span>&nbsps!"
 
 	$(() => {
 		typed.typed({

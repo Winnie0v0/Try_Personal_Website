@@ -130,14 +130,14 @@
             console.log(window.parent.lang)
             // window.lang = 
             if (window.parent.lang === 'cn') {
-            var x32=document.querySelector('#game_time')
-            x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35'/>&nbsp玩个小游戏! 按键盘上左右键控制小猫! 你坚持了<span>0</span>&nbsp秒!"
+                var x32=document.querySelector('#game_time')
+                x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35'/>&nbsp玩个小游戏! 按键盘上左右键控制小猫! 你坚持了<span>0</span>&nbsp秒!"
             
             }
             if (window.parent.lang ==='en'){
 
-            var x32=document.querySelector('#game_time')
-            x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35' /> Let's Play! Press left and right key to control! You servived<span>0</span>&nbsps!"
+                var x32=document.querySelector('#game_time')
+                x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35' /> Let's Play! Press left and right key to control! You servived<span>0</span>&nbsps!"
 
             }
         }
@@ -408,8 +408,6 @@
         function start(){
             if (g.game_over == true){
                 window.location.reload()
-
-                // window.lang = 'cn'
             }else{
                 _main()
             }   
