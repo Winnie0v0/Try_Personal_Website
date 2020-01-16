@@ -323,10 +323,22 @@
         function game_over(){
             clearAllInterval();
             g.game_over = true;
-            x=document.getElementById("game_time")
+            if(lang=="cn"){
+                x=document.getElementById("game_time")
+                x.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35' /> 游戏结束! 你坚持了" + g.game_time + "秒! 再来一次!"
+                y=document.getElementById("start")
+                y.innerHTML="<img class='img-fluid' src='restart.png' alt='' width='25'/>"
+            }
+            else{
+                x=document.getElementById("game_time")
+                x.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35' /> Game Over! You Servived" + g.game_time + "s! Try again!"
+                y=document.getElementById("start")
+                y.innerHTML="<img class='img-fluid' src='restart.png' alt='' width='25'/>"
+            }
+            /*x=document.getElementById("game_time")
             x.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35' /> 游戏结束! 你坚持了" + g.game_time + "秒! 再来一次!"
             y=document.getElementById("start")
-            y.innerHTML="<img class='img-fluid' src='restart.png' alt='' width='25'/>"
+            y.innerHTML="<img class='img-fluid' src='restart.png' alt='' width='25'/>"*/
            
             //setTimeout(function(){//如果不延迟可能会导致上一次绘画未完成就被阻塞了
                 //if(confirm("游戏结束，你坚持了" + g.game_time + "S" + "，继续努力!\n重新开始游戏请点'是'")){
