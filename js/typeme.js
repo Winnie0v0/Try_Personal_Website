@@ -14,7 +14,7 @@ function Chinese(){
 	x3=document.getElementById("winter_1")
 	x3.innerHTML="<img class='img-fluid' src='cat7.png' alt='' width='35'/> 这个寒假"
 	x4=document.getElementById("winter_2")
-	x4.innerHTML="我在<a href='https://www.ksyun.com'>金山云</a>实习。"
+	x4.innerHTML="我在<a href='https://www.ksyun.com'>金山云</a><a href='Linux.pdf'>实习</a>。"
 	x5=document.getElementById("summer_1")
 	x5.innerHTML="<img class='img-fluid' src='cat9.png' alt='' width='35'/> 这个暑假"
 	x6=document.getElementById("summer_2")
@@ -105,7 +105,7 @@ function English(){
 	x3=document.getElementById("winter_1")
 	x3.innerHTML="<img class='img-fluid' src='cat7.png' alt='' width='35'/> This Winter"
 	x4=document.getElementById("winter_2")
-	x4.innerHTML="I'm interning at <a href='https://www.ksyun.com'>Ksyun</a>."
+	x4.innerHTML="I'm <a href='Linux.pdf'>interning</a> at <a href='https://www.ksyun.com'>Ksyun</a>."
 	x5=document.getElementById("summer_1")
 	x5.innerHTML="<img class='img-fluid' src='cat9.png' alt='' width='35'/> This summer"
 	x6=document.getElementById("summer_2")
