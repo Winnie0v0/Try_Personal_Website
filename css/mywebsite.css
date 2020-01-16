@@ -206,6 +206,18 @@ p.copyright {
   pointer-events: all;
 }
 
+#particles-jss {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: right;
+  background: transparent;
+  background-size: cover;
+  height: 45%;
+  width: 100%;
+  position: absolute;
+  pointer-events: all;
+}
+
 .grid {
   /*Grid arrangement*/
   display: flex;
