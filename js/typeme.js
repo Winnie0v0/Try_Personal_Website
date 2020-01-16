@@ -78,8 +78,8 @@ function Chinese(){
 	x31=document.getElementById("contactt")
 	x31.innerHTML="联系"
 	
-	// x32=document.querySelector('#game').contentWindow.document.querySelector('#game_time')
-	// x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35'/>&nbsp玩个小游戏! 按键盘上左右键控制小猫! 你坚持了<span>0</span>&nbsp秒!"
+	x32=document.querySelector('#game').contentWindow.document.querySelector('#game_time')
+	x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35'/> 玩个小游戏! 按键盘上左右键控制小猫! 你坚持了 <span>0</span> 秒!"
 	
 	$(() => {
 		typed.typed({
@@ -169,8 +169,8 @@ function English(){
 	x31=document.getElementById("contactt")
 	x31.innerHTML="Contact"
 
-	// x32=document.querySelector('#game').contentWindow.document.querySelector('#game_time')
-	// x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35' /> Let's Play! Press left and right key to control! You servived<span>0</span>&nbsps!"
+	x32=document.querySelector('#game').contentWindow.document.querySelector('#game_time')
+	x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35' /> Let's Play! Press left and right key to control! You servived <span>0</span> s!"
 
 	$(() => {
 		typed.typed({
