@@ -76,6 +76,9 @@ function Chinese(){
 	x30.innerHTML="游戏!"
 	x31=document.getElementById("contactt")
 	x31.innerHTML="联系"
+
+	x31=document.getElementById("start")
+	x31.innerHTML="开始"
 	
 	$(() => {
 		typed.typed({
@@ -163,6 +166,11 @@ function English(){
 	x30.innerHTML="Game!"
 	x31=document.getElementById("contactt")
 	x31.innerHTML="Contact"
+
+	x31=document.getElementById("start")
+	x31.innerHTML="Start"
+
+
 	
 	$(() => {
 		typed.typed({

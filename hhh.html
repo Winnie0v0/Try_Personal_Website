@@ -98,7 +98,7 @@
           <div class="row">
             <div class="col-lg ml-auto">
               <h2 class="section-heading" id="game_time">
-                <img class="img-fluid" src="cat4.png" alt="" width="35" />&nbsp&nbsp<span>0</span> S
+                <img class="img-fluid" src="cat4.png" alt="" width="35" />&nbsp玩个小游戏! 按键盘上左右键控制小猫! 你坚持了<span>0</span>&nbsp秒!
               </h2>
               <hr class="divider" />
               <ul
@@ -160,14 +160,12 @@
             faceLastY: 0,//头像上一次位置y坐标，用于擦除(其初始值会在首次加载被initFacePos方法计算得出，故设置是无效的)
             keyRight: false,//是否按了→
             keyLeft: false,//是否按了←
-            keyUp: false,//是否按了↑
-            keyDown: false,//是否按了↓
             faceSpeed: 15,//头像每次刷新画布移动的像素
             rectW: 10,//矩形的宽度
             rectH: 10,//矩形的高度
                rectSpeedMin: 3,//方块速度最小值
                rectSpeedMax: 8,//方块速度最大值
-               rectFlowNumForSec: 5,//每秒生成矩形个数
+               rectFlowNumForSec: 8,//每秒生成矩形个数
         };
 
         //获取画布上下文
@@ -325,10 +323,10 @@
         function game_over(){
             clearAllInterval();
             g.game_over = true;
-                //x99=document.getElementById("game_time")
-                //x99.innerHTML="游戏结束，你坚持了" + g.game_time + "秒" + "，继续努力!"
-            y99=document.getElementById("start")
-            y99.innerHTML="<img class='img-fluid' src='restart.png' alt='' width='25'/>"
+            x=document.getElementById("game_time")
+            x.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width='35' /> 游戏结束! 你坚持了" + g.game_time + "秒! 再来一次!"
+            y=document.getElementById("start")
+            y.innerHTML="<img class='img-fluid' src='restart.png' alt='' width='25'/>"
            
             //setTimeout(function(){//如果不延迟可能会导致上一次绘画未完成就被阻塞了
                 //if(confirm("游戏结束，你坚持了" + g.game_time + "S" + "，继续努力!\n重新开始游戏请点'是'")){
@@ -376,10 +374,6 @@
                 g.keyRight = v;
             }else if(k == 'ArrowLeft'){
                 g.keyLeft = v;
-            }else if(k == "ArrowUp"){
-                g.keyUp = v;
-            }else if(k == "ArrowDown"){
-                g.keyDown = v;
             }
         }
 
