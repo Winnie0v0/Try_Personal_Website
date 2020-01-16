@@ -76,6 +76,9 @@ function Chinese(){
 	x30.innerHTML="游戏!"
 	x31=document.getElementById("contactt")
 	x31.innerHTML="联系"
+	console.log(document.querySelector('#game').contentWindow.document.querySelector('#game_time'))
+	x32=document.querySelector('#game').contentWindow.document.querySelector('#game_time')
+	x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width=’35‘ />&nbsp玩个小游戏! 按键盘上左右键控制小猫! 你坚持了<span>0</span>&nbsp秒!"
 	
 	$(() => {
 		typed.typed({
@@ -164,10 +167,9 @@ function English(){
 	x31=document.getElementById("contactt")
 	x31.innerHTML="Contact"
 
-	
+	x32=document.querySelector('#game').contentWindow.document.querySelector('#game_time')
+	x32.innerHTML="<img class='img-fluid' src='cat4.png' alt='' width=’35‘ /> Let's Play! 按键盘上左右键控制小猫! 你坚持了<span>0</span>&nbsp秒!"
 
-	
-	
 	$(() => {
 		typed.typed({
 			strings: ["programming.", "designing.",  "sketching.", "on my way to somewhere."],
@@ -186,4 +188,15 @@ $(() => {
 });
 
 
-
+/*function cn() {
+	document.querySelectorAll('.trans').forEach(item=> {
+		item.innerText = item.getAttribute('data-cn')
+	})
+	
+}
+function en() {
+	document.querySelectorAll('.trans').forEach(item=> {
+		item.innerText = item.getAttribute('data-en')
+	})
+	
+}*/
